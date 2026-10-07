@@ -15,7 +15,7 @@ public class AverageCalculator {
         int score4 = 95;
         int score5 = 83;
 
-        // Your code here
+   
 
     }
 }

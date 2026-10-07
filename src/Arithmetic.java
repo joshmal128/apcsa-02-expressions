@@ -23,11 +23,11 @@
 
 **1. Compare #11 and #12. Same numbers, same operators, completely different answers. Explain why.**
 
-#11 does 1 / 2 first, which equals 0. #12 does 100 * 1 first, which equals 100.
+[your answer]
+
 **2. #9 gives `5`. Explain why `5 % 17` is 5 and not 0.**
 
-% gives the remainder. 17 doesn't fit into 5, so the remainder is 5.
-
+[your answer]
 
 **3. A classmate writes this to calculate a percentage:**
 ```java
@@ -37,15 +37,13 @@ double percent = correct / total * 100;
 ```
 **They get `0.0`. Explain what went wrong and write the corrected line.**
 
-Java does integer division because both numbers are ints.
+[your answer]
 
-// corrected line:
-double percent = (double) correct / total * 100;
 ```java
-
+// corrected line:
+```
 
 **4. Give one real situation where `%` would genuinely be useful. Not from this worksheet — something from your own life or your project idea.**
 
-% could be used in a game to give a bonus every 10 points.
-
-
+[your answer]
+    
