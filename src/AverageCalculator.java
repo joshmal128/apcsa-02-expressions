@@ -7,6 +7,7 @@
  * If your program prints 87.0, you've hit the integer division trap.
  * Fix it without changing the score variables to doubles.
  */
+
 public class AverageCalculator {
     public static void main(String[] args) {
         int score1 = 88;
@@ -15,7 +16,8 @@ public class AverageCalculator {
         int score4 = 95;
         int score5 = 83;
 
-   
+        double average = (score1 + score2 + score3 + score4 + score5) / 5.0;
 
+        System.out.println("Average: " + average);
     }
 }
