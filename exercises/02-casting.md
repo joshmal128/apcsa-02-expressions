@@ -37,23 +37,19 @@ System.out.println("Min - 1:      " + (min - 1));
 
 **1. What is `Integer.MAX_VALUE`?**
 
-[your answer]
-
+2147483647
 **2. What happened when you added 1 to it? Was there an error message?**
 
-[your answer]
-
+It wraps to be a negative
 **3. Why is silently wrapping around more dangerous than crashing with an error?**
 
 Because if it doesn't say erro, you would think thats the real answer
 **4. In 2014 a very popular music video broke YouTube's view counter. Based on this lab, what do you think happened?**
 
-[your answer]
-
+It went over the max value and wrapped to negative
 **5. Name one thing your project might count that could get large. Would `int` be enough?**
 
-[your answer]
-
+Comments
 ---
 
 ## Part C — Floating point
