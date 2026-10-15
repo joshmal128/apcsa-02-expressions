@@ -63,12 +63,10 @@ System.out.println(0.1 + 0.2 == 0.3);
 
 **1. What did you expect? What did you get?**
 
-[your answer]
-
+I would expect the answer to be right so 1: would be .3 and 2: would be true
 **2. Given this, why do you think real banking software stores money as a whole number of *cents* instead of a `double` number of dollars?**
 
-[your answer]
-
+Dont use double because it can be innaccurate
 **3. If you can't use `==` to compare two doubles, what could you do instead? Write a line of code.**
 
-[your answer]
+System.out.println(Math.abs(0.1 + 0.2 - 0.3) < 0.000001);
