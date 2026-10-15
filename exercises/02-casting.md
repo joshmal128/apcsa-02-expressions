@@ -13,12 +13,11 @@ Predict first. Then run.
 | 5 | `Math.round(-9.5)` | -9 | |
 | 6 | `(double) 7 / 2` | 3.5 | |
 | 7 | `(double) (7 / 2)` | 3.0 | |
-| 8 | `Math.round(3.14159 * 100) / 100.0` |  | |
+| 8 | `Math.round(3.14159 * 100) / 100.0` | 3.14 | |
 
 **#6 and #7 look almost identical and give different answers. Explain the difference precisely.**
 
-[your answer]
-
+The parenthesis changes the order of operations
 ---
 
 ## Part B — The overflow lab
@@ -46,8 +45,7 @@ System.out.println("Min - 1:      " + (min - 1));
 
 **3. Why is silently wrapping around more dangerous than crashing with an error?**
 
-[your answer]
-
+Because if it doesn't say erro, you would think thats the real answer
 **4. In 2014 a very popular music video broke YouTube's view counter. Based on this lab, what do you think happened?**
 
 [your answer]
